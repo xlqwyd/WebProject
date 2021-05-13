@@ -31,7 +31,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			
-			<a class="navbar-brand" href="mainpage.jsp">천안시 열지도 페이지</a>
+			<a class="navbar-brand" href="/heatmap/">천안시 열지도 페이지</a>
 		</div>
 		<br>
 		
@@ -51,8 +51,8 @@
       					<span class="caret"></span>
     			</button>
     				<ul class="dropdown-menu" role="menu">
-      				<li><a href="join.jsp">회원가입</a></li>
-      				<li><a href="RealLogin.jsp">로그인</a></li>
+      				<li><a href="/heatmap/join">회원가입</a></li>
+      				<li><a href="/heatmap/RealLogin">로그인</a></li>
    					 </ul>
   			</div>
 			  <%
@@ -111,7 +111,7 @@
                             
                             
                             <div>
-                            <img src="assets/img/소비자연대.jpg" style="float: left; margin-right: 20px; margin-bottom: 1px; width:250px; height:70px;" >
+                            <img src="{contextpath}/resources/img/소비자연대.jpg" style="float: left; margin-right: 20px; margin-bottom: 1px; width:250px; height:70px;" >
                                 
                                 
                                 <p style="text-align:right;">
